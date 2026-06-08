@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk 'NR>=1{print NR\": \"$0}' Level0.unity)",
+      "Bash(grep -n \"&1531940625\\\\|m_Father: {fileID: 1531940625}\\\\|PlayerMovement\\\\|PlayerStats\\\\|PlayerAudio\" \"C:/Users/rymns/turkicgame/Assets/Scenes/Level0.unity\" | head; echo \"---\"; awk 'NR>=1531940000 && NR<=1532100000' /dev/null; grep -n \"1531940625\" \"C:/Users/rymns/turkicgame/Assets/Scenes/Level0.unity\")",
+      "Bash(cat \"C:/Users/rymns/turkicgame/ProjectSettings/ProjectSettings.asset\" 2>/dev/null | grep -iE \"productName|companyName\" ; echo \"---INPUT---\"; cat \"C:/Users/rymns/turkicgame/Assets/InputSystem_Actions.cs\" 2>/dev/null | grep -iE \"\\\\\"\\(Attack|Move|Up|Down|Left|Right|Interact\\)\\\\\"\" | head -40)"
+    ]
+  }
+}
